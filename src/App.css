@@ -1,0 +1,424 @@
+/* Dropdown.css
+.dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-button {
+    padding: 8px 12px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    background-color: white;
+    border-radius: 4px;
+  }
+  
+  .dropdown-menu {
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .dropdown-item {
+    padding: 12px 16px;
+    cursor: pointer;
+  }
+  
+  .dropdown-item:hover {
+    background-color: #f1f1f1;
+  }
+   */
+.dropdown-item.active,
+.dropdown-item:active {
+  color: #fff;
+  text-decoration: none;
+  background-color: #FF9F43;
+  border-radius: 12px;
+  /* border: #FF9F43 solid 1px; */
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button {
+  padding: 8px 12px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+  background-color: white;
+  border-radius: 4px;
+}
+
+.dropdown-menu {
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  border-radius: 12px;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+  cursor: pointer;
+  border-radius: 12px;
+}
+
+.dropdown-menu {
+  transition: all 0.5s ease;
+  transform: translate(0px, 100px);
+  -webkit-transform: translate(0px, 100px);
+  -ms-transform: translate(0px, 100px);
+  box-shadow: 0px 0px 15px 0px rgba(0, 0, 0, 0.05);
+  border: 0;
+  margin-bottom: 120px !important;
+}
+
+.dropdown-item:hover {
+  background-color: #F6F7F8;
+  border-radius: 12px;
+}
+
+.dropdown1 {
+  background: #F6F7F8;
+  width: 170px;
+  max-width: 100%;
+  height: 36px;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  border-radius: 12px !important;
+}
+
+.navLink {
+  background-color: #F6F7F8 !important;
+  display: block;
+  padding: 0px;
+  color: #0d6efd;
+  text-decoration: none;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out;
+}
+
+.customCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customCenter {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.customSpaceBtwn {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.swal2-icon {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+}
+
+/* This class is for the icon's container */
+.swal2-center-custom-icon {
+  display: flex !important;
+  justify-content: center !important;
+  align-items: center !important;
+  /* Centers the icon horizontally */
+}
+
+/* This class is for the custom HTML icon itself */
+.custom-swal-icon {
+  /* Style your icon as needed */
+  font-size: 24px;
+  /* Example styling */
+}
+
+/* .page-wrapper {
+  padding: 100px;
+  margin-left: 0px;
+} */
+
+.account-settings {
+  max-width: 400px;
+  margin: auto;
+  border-radius: 12px;
+  background: #FFFFFF !important;
+}
+
+.settings-field {
+  padding: 0;
+  margin: 0;
+}
+
+.settings-field label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: 600;
+}
+
+.settings-field div {
+  display: flex;
+  align-items: center;
+}
+
+.borderColor {
+  padding: 12px;
+  height: 85px;
+  border: 1px solid #c9d2e3;
+}
+
+.borderColor2 {
+  padding: 12px;
+  height: 85px;
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+  border: 1px solid #c9d2e3;
+}
+
+.settings-field input[type="text"] {
+  flex: 1;
+  padding: 8px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 4px 15px;
+  border-radius: 12px !important;
+  cursor: pointer;
+  border-color: #c9d2e3 !important;
+  width: 100px;
+  background-color: #fff;
+  color: #3c4e71;
+}
+
+.btn-default {
+  --bs-btn-color: #3c4e71;
+  --bs-btn-bg: #FFFFFF;
+  --bs-btn-border-color: #c9d2e3;
+  --bs-btn-hover-color: #3c4e71;
+  --bs-btn-hover-bg: #ebeef4;
+  --bs-btn-hover-border-color: #c9d2e3;
+  --bs-btn-focus-shadow-rgb: 180, 190, 210;
+  --bs-btn-active-color: #000000;
+  --bs-btn-active-bg: white;
+  --bs-btn-active-border-color: #dce2ed;
+  --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+  --bs-btn-disabled-color: #000000;
+  --bs-btn-disabled-bg: #FFFFFF;
+  --bs-btn-disabled-border-color: #c9d2e3;
+}
+
+.spacebwn {
+  display: flex !important;
+  align-items: center !important;
+  justify-content: space-between !important;
+}
+
+.borderColor1 {
+  border: 1px solid #c9d2e3;
+  padding: 12px;
+  height: 85px;
+  border-bottom: #fff;
+}
+
+.borderColor3 {
+  border: 1px solid #c9d2e3;
+  padding: 12px;
+  height: 100%;
+  border-bottom: #fff;
+}
+.borderCurved {
+  border: 1px solid #c9d2e3;
+  padding: 12px;
+  height: 100%;
+  border-radius: 12px;
+  /* border-bottom: #fff; */
+}
+.borderRadiusTop {
+  border-top-left-radius: 12px !important;
+  border-top-right-radius: 12px !important;
+  /* border: 1px solid #c9d2e3; */
+}
+
+.borderRadiusBottom {
+  border-bottom-left-radius: 12px !important;
+  border-bottom-right-radius: 12px !important;
+  border-bottom: 1px solid #c9d2e3;
+}
+
+/* Add this to your CSS file */
+.borderRadiusTop .settings-field {
+  border-top-left-radius: 12px;
+  border-top-right-radius: 12px;
+}
+
+.borderRadiusBottom .settings-field {
+  border-bottom-left-radius: 12px;
+  border-bottom-right-radius: 12px;
+}
+
+/* .settings-field {
+  border: 1px solid #c9d2e3;
+  padding: 12px;
+} */
+
+.borderNone .settings-field {
+  border-bottom: #fff !important;
+}
+.borderNone {
+  border-bottom: #fff !important;
+}
+.card {
+  border-radius: 12px;
+  /* other styles */
+}
+
+.notification {
+  margin: 0 0 0 260px;
+  /* padding: 60px 0 0; */
+  position: relative;
+  left: 0;
+  -webkit-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+
+
+/* Add this to your existing styles or create a new CSS file */
+.loading-indicator {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent white background */
+  z-index: 1000; /* Ensure it's above other elements */
+}
+
+/* Spinner style */
+.loading-spinner {
+  border: 4px solid rgba(0, 0, 0, 0.1);
+  border-top: 4px solid #3498db; /* Blue color */
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  animation: spin 1s linear infinite; /* Rotation animation */
+}
+
+.outerCircle{
+  width: 60px;  
+  height: 60px;
+  padding:10px;
+  border-radius: 50%;
+  background-color: #f0f6fc;
+  text-align:center;
+  display:flex;
+  align-items:center;
+  justify-content:center;
+  outline:none;
+  border:none;
+  box-shadow: 6px 6px 10px -1px rgba(0,0,0,.15),
+  -6px -6px 10px -1px hsla(0,0%,100%,.7)
+          
+}
+.innerCircle{
+position:relative;
+width:100%; 
+height: 100%;
+font-size:24px; 
+color: #0056b3;
+font-weight:bold;
+text-transform:uppercase; 
+border-radius: 50%;
+background-color:#f0f6fc;
+outline:none;
+border:none;
+box-shadow: inset 4px 4px 6px -1px rgba(0,0,0,.2),inset -4px -4px 6px -1px hsla(0,0%,100%,.7),-.5px -.5px 0 #fff,.5px .5px 0 rgba(0,0,0,.15),0 12px 10px -10px rgba(0,0,0,.05);
+}
+
+
+
+
+@keyframes spin {
+  0% { transform: rotate(0deg); }
+  100% { transform: rotate(360deg); }
+}
+
+
+
+
+
+@media (max-width: 991.98px) {
+  .notification {
+    margin: 0;
+    padding: 60px 0 0;
+  }
+}
+
+.notification .content {
+  padding: 25px;
+}
+
+@media (max-width: 991.98px) {
+  .notification .content {
+    padding: 15px;
+  }
+}
+
+.sidebarrightmenu .notification- {
+  margin: 0 0 0 350px;
+}
+
+@media (max-width: 991.98px) {
+  .sidebarrightmenu .notification {
+    margin: 0;
+  }
+}
+
+.subHeadings {
+  margin-top: 0;
+  font-size: 20px !important;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  line-height: 1.2;
+  color: var(--bs-heading-color);
+}
+
+.headDef {
+  justify-content: center !important;
+  margin-top: 20px !important;
+}
+
+.switch {
+  max-width: 44px !important;
+}
+.svg-icon {
+  fill: #67748e; /* Initial color */
+  transition: fill 0.3s ease; /* Smooth transition for color */
+}
+
+.text {
+  font-weight: normal; /* Initial font weight */
+  transition: font-weight 0.3s ease; /* Smooth transition for font-weight */
+}
+
+.svg-container:hover .svg-icon {
+  fill: #FF9F43 !important; /* Color on hover */
+}
+
+.svg-container:hover .text {
+  font-weight: 400 !important; /* Font weight on hover */
+}
